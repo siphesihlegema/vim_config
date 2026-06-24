@@ -1,4 +1,4 @@
-# Salar's Neovim Config
+# Siphesihle's Neovim Config
 
 A focused Neovim setup for day-to-day coding, with fast navigation, LSP-backed editing, debugging, file browsing, and a theme workflow that is easy to switch without touching config files.
 
@@ -76,4 +76,3 @@ lua/salar/plugins/lsp/   LSP and Mason setup
 lua/salar/tools/         Small local helper tools
 showcase/                README screenshots
 ```
-# vim_config
