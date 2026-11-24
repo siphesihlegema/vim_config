@@ -12,3 +12,5 @@ end
 vim.lsp.log.set_level(vim.log.levels.ERROR)
 require("salar.core")
 require("salar.lazy")
+
+vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
