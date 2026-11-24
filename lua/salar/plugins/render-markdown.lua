@@ -1,6 +1,5 @@
 return {
 	"MeanderingProgrammer/render-markdown.nvim",
-	cond = vim.fn.has("nvim-0.12") == 0,
 	ft = "markdown",
 	cmd = { "RenderMarkdown" },
 	keys = {
@@ -20,6 +19,7 @@ return {
 			enabled = has_parser("markdown") and has_parser("markdown_inline"),
 			file_types = { "markdown" },
 			preset = "obsidian",
+                        latex = { enabled = false },
 			render_modes = { "n", "c", "t" },
 			restart_highlighter = false,
 			anti_conceal = {
